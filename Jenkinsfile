@@ -10,7 +10,8 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/Ankit-Maj/docker-jenkins-lab.git'
+                git branch: 'main',
+                    url: 'https://github.com/Ankit-Maj/docker-jenkins-lab.git'
             }
         }
 
