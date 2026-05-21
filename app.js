@@ -1,7 +1,7 @@
 const http = require('http');
 
 const server = http.createServer((req, res) => {
-    res.write("Docker Image Built Using Jenkins");
+    res.write("Updated Docker Jenkins Pipeline");
     res.end();
 });
 
